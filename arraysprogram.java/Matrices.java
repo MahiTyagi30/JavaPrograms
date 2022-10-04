@@ -18,7 +18,7 @@ public class Matrices {
         int endCol=matrix.length-1;
         while(startRow<=endRow&& startCol<=endCol){
             //top
-            for(int j=startCol;j<=endCol;j++){
+            for(int j=startCol;j<endCol;j++){//<=endcol
                 System.out.print(matrix[startRow][j]+" ");
             }
             //right

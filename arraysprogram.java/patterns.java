@@ -3,7 +3,7 @@ public class patterns {
     public  static void hollowRectangle(int rows,int col){
         for(int i=1;i<=rows;i++){
             for(int j=1;j<=col;j++){
-                if(i==1||i==rows||j==1||j==col){//checking boundary condition
+                if(i==1||i==rows||j==1||j=col){//checking boundary condition//==
                     System.out.print("*");
                 }
                 else{

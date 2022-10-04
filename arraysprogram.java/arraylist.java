@@ -9,7 +9,7 @@ public class arraylist {
     }
     public static void maxElement(ArrayList<Integer> list){//O(n)
         int max=Integer.MIN_VALUE;
-        for(int i=list.size()-1;i>=0;i--){
+        for(int i=list.size();i>=0;i--){//size()-1
             max=Math.max(max,list.get(i));
         }
         System.out.println("the max. element is = "+max);
