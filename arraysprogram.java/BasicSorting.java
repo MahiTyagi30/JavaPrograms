@@ -4,7 +4,7 @@ public class BasicSorting{
 
 public static void bubbleSort(int ar[]){
     int swap=0;//to check sorted array
-    for(int turn=0;turn<ar.length;turn++){//ar.length-1
+    for(int turn=0;turn<ar.length-1;turn++){//ar.length-1
         for(int j=0;j<ar.length-1-turn;j++){
             if(ar[j]>ar[j+1]){
                 int temp=ar[j];
