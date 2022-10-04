@@ -1,0 +1,10 @@
+
+.red{
+    background-color:rgb(0, 166, 255) ;
+}
+.green{
+    background-color: rgb(255, 0, 162);
+    height: 23px;
+    /* width: 40px; */
+    border: 2px solid blue;
+}
