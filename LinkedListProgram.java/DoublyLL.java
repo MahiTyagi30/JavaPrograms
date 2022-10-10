@@ -66,10 +66,10 @@ public class DoublyLL {
     public static void main(String[] args){
        DoublyLL dll=new DoublyLL();
         
+        dll.addFirst(5);
         dll.addFirst(4);
         dll.addFirst(3);
         dll.addFirst(2);
-        dll.addFirst(1);
 
         dll.print();
        
