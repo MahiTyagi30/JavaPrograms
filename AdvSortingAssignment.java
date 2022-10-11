@@ -76,8 +76,8 @@ public class AdvSortingAssignment {
 
     public static void main(String[]args){
         //String str[]={"sun","earth","mars","mercury"};
-        int nums[]={2,2,0,0,0,2,2};
-        int a=majorityElement(nums);
+        int num[]={2,2,0,0,0,2,2};
+        int a=majorityElement(num);
         System.out.println(a);
         //MS(str,0,str.length-1);
        // print(strr);
